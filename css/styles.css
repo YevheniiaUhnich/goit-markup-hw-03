@@ -149,11 +149,14 @@
 
 .tytle-list-section {
     display: flex;
-    gap: 8px;
+    gap: 24px;
     flex-direction: row;
     justify-content: center;
     margin-top: 120px;
 
+}
+.tytle-section-list {
+    width: calc((100% - 72px) / 4); 
 }
 
 .post {
@@ -205,6 +208,9 @@
     width: 264px;
 }
 
+.tytle-section {
+    padding: 120px 0;
+}
 .title {
     color: #2E2F42;
     font-family: Roboto, sans-serif;
@@ -212,11 +218,12 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px; 
 }
 
 .section-block-team {
     display: flex;
-    gap: 32px;
+    gap: 24px;
     padding-bottom: 120px;
 
   
@@ -227,6 +234,7 @@
     display: flex;
     top: 1016px;
     height: 732px;
+    padding: 120px 0;
 
 }
 .visually-hidden {
@@ -253,10 +261,17 @@
     color: #2e2f42;
     padding-top: 120px;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .block-cards-team {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px; 
+
+}
+
+.description-team  {
+    padding: 32px 0;
 
 }
 .box-title {
@@ -266,6 +281,8 @@
     line-height: 24px;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .box-post {
     font-family: Roboto, sans-serif;
@@ -274,6 +291,7 @@
     line-height: 24px;
     color: #434455;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .title-list {
@@ -287,6 +305,7 @@
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .list-title-block {
@@ -296,14 +315,31 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
+.block-portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .section-title-block {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     border: 1px;
     width: calc((100%-8px));
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.description-potfolio {
+    width: calc((100% - 48px) / 3); 
+}
+
+.description-potfolio-title {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
 .text-title-block {
     font-weight: 400;
@@ -317,7 +353,7 @@
     display: block;
     background-color: #2e2f42;
     height: 312px;
-    padding-top: 100px;
+    padding: 100px 0
 
 }
 .box-last-text {
@@ -346,6 +382,8 @@
 
 .text-studio {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 section {
