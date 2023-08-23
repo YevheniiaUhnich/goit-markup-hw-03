@@ -24,7 +24,7 @@
     display: flex;
 }
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -41,6 +41,7 @@
     letter-spacing: 0.03em;
     color: #4d5ae5;
     display: block;
+    margin-right: 76px;
     
 }
 
@@ -48,6 +49,7 @@
     color: #2e2f42;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 76px;
  
 }
 .menu {
@@ -69,6 +71,7 @@
     color: #2e2f42;
     font-family: Roboto, sans-serif;
     font-style: normal;
+    padding: 24px 0;
 }
 
 .my-link {
