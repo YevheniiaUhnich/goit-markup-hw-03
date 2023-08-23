@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   
+
+    <Link rel="stylesheet" href="./css/styles.css" />
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,15 +17,16 @@
       rel="stylesheet"
     />
     
-    <link 
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
   </head> 
    
   <body>
-    <header>
-      <nav>
+
+    <header class="header-container">
+    <div class="container-logo-nav container">
+      <nav class="navigation-list">
+        
         <a href="./index.html" class="logo-header">Web<span class="logo-header-text">Studio</span></a> 
 
        <ul class="menu"> 
@@ -35,29 +41,34 @@
       </nav>
 
        <address class="link-contact">     
-        <ul>
+        <ul class="link-contact-all">
         
           <li class="contact-all"><a href="mailto:info@devstudio.com" class="link-contact-text">info@devstudio.com</a></li>
           <li class="contact-all"><a href="tel:+110001111111" class="link-contact-text">+11 (000) 111-11-11</a></li>  
         
         </ul>      
-      </address>         
+      </address>  
+    </div>       
     </header>
     <main>
 
       <!--Section 1-->
 
     <section class="post">
+      <div class="container">
+
       <h1 class="post-title">Effective Solutions for Your Business</h1>
       <button class="button-style" type="button">Order Service</button>
+
+      </div>
     </section>
 
    <!--Section 2-->
 
-    <section>
-      <h2>TytleTwoSection</h2>
-
-      <ul>
+    <section class="tytle-section">
+      <div class="container"></div>  
+        <h2 class="visually-hidden">TytleTwoSection</h2>
+        <ul class="tytle-list-section">
         <li>
         <h3 class="title">Strategy</h3>
         <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -79,14 +90,16 @@
         <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>  
       </li>      
       </ul>
+      </div>
     </section>
 
     <!--Section 3-->
 
     <section class="blok-post-team">
+      <div class="container">
       <h2 class="post-team">Our Team</h2>
 
-      <ul>
+      <ul class="section-block-team">
       <li class="block-cards-team">
         <img src="./images/TeamCard1.jpg" alt="TeamCard1" width="264" />
         <h3 class="box-title">Mark Guerrero</h3>
@@ -113,13 +126,15 @@
         </li>
        
       </ul>
+      </div>
     </section>
 
     <!--Section 4-->
     <section> 
+      <div class="container"> 
     <h2 class="title-list">Our Portfolio</h2>
     
-    <ul> 
+    <ul class="section-title-block"> 
       <li>
         <img src="./images/BankingApp.jpg"
         alt="BankingApp"
@@ -168,15 +183,20 @@
         <p class="text-title-block">Marketing</p>
       </li>
     </ul>  
+    </div>
     </section>         
     </main>
 
     <footer class="last-block">
+
+      <div class="container">
       <a href="./index.html" class="box-last-logo">Web<span class="text-studio">Studio</span></a>
 
       <p class="box-last-text">Increase the flow of customers and 
         sales for your business with digital
         marketing & growth solutions.</p>
+      </div>  
+
     </footer>
 
   </body>
