@@ -26,8 +26,7 @@
 }
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -67,6 +66,7 @@
     color: #2e2f42;
     font-family: Roboto, sans-serif;
     font-style: normal;
+    padding: 20 0;
 }
 
 .my-link {
@@ -306,8 +306,8 @@
 }
 
 .block-portfolio {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-title-block {
