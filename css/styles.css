@@ -52,8 +52,6 @@
 .menu {
     display: flex;
     gap: 40px;
-    width: 261px;
-    height: 24px;
     top: 24px;
     left: 347px;
 }
@@ -372,11 +370,6 @@
 .text-studio {
     color: #f4f4fd;
     display: inline-block;
-}
-
-section {
-    margin-bottom: 60px;
-    margin-top: 60px;
 }
 
  ul {
